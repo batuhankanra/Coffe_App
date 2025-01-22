@@ -5,7 +5,7 @@ import CustomError from "./Error.js"
 class Response{
     constructor() {}
 
-    static succcessResponse(data){
+    static succcessResponse({data}){
         return {
             data
         }
