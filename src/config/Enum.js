@@ -1,3 +1,5 @@
+import CustomError from "../lib/Error.js";
+
 export default {
     HTTP_CODES: {
         OK: 200,
@@ -18,6 +20,6 @@ export default {
         TOO_MANY_REQUESTS: 429,
         INT_SERVER_ERROR: 500,
         BAD_GATEWAY: 502
-    }
-
+    },
+    
 }
